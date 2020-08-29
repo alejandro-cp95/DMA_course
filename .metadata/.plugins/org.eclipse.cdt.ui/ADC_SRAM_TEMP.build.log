@@ -1,0 +1,6 @@
+01:23:09 **** Incremental Build of configuration Debug for project ADC_SRAM_TEMP ****
+make all 
+make: Nothing to be done for 'all'.
+
+01:23:10 Build Finished (took 1s.395ms)
+

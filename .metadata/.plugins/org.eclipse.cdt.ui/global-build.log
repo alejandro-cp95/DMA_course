@@ -1,0 +1,48 @@
+23:48:35 **** Incremental Build of configuration Debug for project Push_Button ****
+make all 
+make: Nothing to be done for 'all'.
+23:48:39 **** Erasing chip ... ****
+"C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.externaltools.openocd.win32_1.23.0.201904120827\\tools\\openocd\\bin\\openocd.exe" -f stm32.flash.7039922580748750520.cfg -s "C:\\Users\\-_Alex_-\\Desktop\\DMA course\\Workspace\\Push_Button" -s "C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.debug_2.5.0.201904120827\\resources\\openocd\\st_scripts" "-c init" "-c reset halt" "-c flash erase_sector 0 0 last" "-c exit" 
+Open On-Chip Debugger 0.10.0+dev-00021-g524e8c8 (2019-04-12-08:48)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 8000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 8000 kHz
+Error: read version failed
+in procedure 'init' 
+in procedure 'ocd_bouncer'
+
+23:48:46 **** Programming project Push_Button on chip ****
+"C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.externaltools.openocd.win32_1.23.0.201904120827\\tools\\openocd\\bin\\openocd.exe" -f stm32.flash.2791426562696993626.cfg -s "C:\\Users\\-_Alex_-\\Desktop\\DMA course\\Workspace\\Push_Button" -s "C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.debug_2.5.0.201904120827\\resources\\openocd\\st_scripts" -c "program Debug/Push_Button.elf verify " -c shutdown 
+Open On-Chip Debugger 0.10.0+dev-00021-g524e8c8 (2019-04-12-08:48)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 8000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 8000 kHz
+Error: read version failed
+in procedure 'program' 
+in procedure 'init' called at file "embedded:startup.tcl", line 495
+in procedure 'ocd_bouncer'
+** OpenOCD init failed **
+shutdown command invoked
+
+23:50:22 **** Incremental Build of configuration Debug for project Push_Button ****
+make all 
+make: Nothing to be done for 'all'.
+23:50:50 **** Incremental Build of configuration Debug for project Push_Button ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:33 **** Incremental Build of configuration Debug for project Push_Button ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:58 **** Incremental Build of configuration Debug for project Push_Button ****
+make all 
+make: Nothing to be done for 'all'.
